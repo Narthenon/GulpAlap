@@ -1,0 +1,19 @@
+{
+  "name": "tipus",
+  "version": "1.0.0",
+  "description": "Típusok",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server ./src --mount='/lib/jquery.js:./node_modules/jquery/dist/jquery.js'"
+  },
+  "author": "Bán Cintia",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
